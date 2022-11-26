@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#cover{
+    width: 100%;
+    height: 13rem;;
+    display: block;
+    margin: 0 ;
+}
+#profile__pic{
+    /* width: 5rem;
+    height: 5rem;
+    position: relative;
+     */
+    width: 6rem;
+    height: 6rem;
+    position: relative;
+    bottom: 3rem;
+    left: 1rem;
+
+}
+.profile__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    .profile__container p{
+        font-weight: bold;
+        font-size: 1.3rem;
+        position: relative;
+        right: 7.4rem;
+        line-height: 0.1rem;
+    }
+    #secondChild__p{
+        color: grey;
+    }
+    hr{
+        width: 75%;
+        border-top: 0.1rem solid black;
+    }
+    .header__data,.data{
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 75%;
+    }
+    .header__data p{
+        color: gray;
+    }
+    .data p {
+        font-weight: bold;
+        font-size: large;
+    }
